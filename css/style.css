@@ -82,7 +82,25 @@
 }
 /* Fine Esercizio 7 */
 
+/* Inizio Esercizio 8 */
+.ex-8-img {
+  transition: filter 3s, border-radius 3s;
+}
 
-.ex-8-img
+.ex-8-img:hover {
+  filter: sepia(0.8) grayscale(50%);
+  border-radius: 20px;
+}
+/* Fine Esercizio 8 */
 
-.ex-8-img
+/* Inizio Esercizio 9 */
+.ex-9-img {
+  transition: filter 3s, border-radius 3s, transform 3s;
+}
+
+.ex-9-img:hover {
+  filter: sepia(0.8) grayscale(50%);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+/* Fine Esercizio 9 */
