@@ -39,28 +39,30 @@
 
 /* Inizio Esercizio 4 */
 .ex-4-square {
-  transition: background 3s;
+  opacity: 1;
+  transition: opacity 3s;
 }
 
 .ex-4-square:hover {
-  background: #f5f5f5;
+  opacity: 0;
 }
 /* Fine Esercizio 4 */
 
 /* Inizio Esercizio 5 */
 .ex-5-square {
-  transition: width 2s linear;
-  transition: height 2s linear;
+  transition: width 0.3s linear, height 0.3s linear, margin 0.3s linear;
 }
 
 .ex-5-square:hover {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  margin: 0;
 }
 
 .ex-5-square:active {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
+  margin: 40px;
 }
 /* Fine Esercizio 5 */
 
