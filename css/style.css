@@ -138,7 +138,33 @@
 /* Fine Esercizio 10 */
 
 /* Inizio Esercizio 11 */
+.ex-11-icon:hover {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
 /* Fine Esercizio 11 */
 
 /* Inizio Esercizio 12 */
