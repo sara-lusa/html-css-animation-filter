@@ -104,3 +104,47 @@
   transform: scale(1.5);
 }
 /* Fine Esercizio 9 */
+
+/* Inizio Esercizio 10 */
+.ex-10-icon {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Fine Esercizio 10 */
+
+/* Inizio Esercizio 11 */
+
+/* Fine Esercizio 11 */
+
+/* Inizio Esercizio 12 */
+
+/* Fine Esercizio 12 */
+
+/* Inizio Esercizio 13 */
+
+/* Fine Esercizio 13 */
